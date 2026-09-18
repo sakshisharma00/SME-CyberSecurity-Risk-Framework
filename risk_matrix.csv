@@ -1,0 +1,11 @@
+Risk,Category (NIST),Likelihood (1-5),Impact (1-5),Risk Score,Priority,Recommended Mitigation
+Phishing / Business Email Compromise,Protect,5,4,20,Critical,"Email filtering (SPF/DKIM/DMARC), phishing drills, MFA on email"
+Ransomware,Protect / Recover,3,5,15,High,"EDR, offline/immutable backups, app whitelisting"
+Insider Threats,Identify / Protect,3,4,12,High,"RBAC, least privilege, activity logging"
+Weak / Reused Passwords,Protect,4,3,12,High,"Password manager, MFA everywhere"
+Unpatched Software & OS,Protect,4,3,12,High,Automated patch management
+Unsecured Remote Access (RDP/VPN),Protect,3,4,12,High,"VPN + MFA, disable direct RDP, IP allow-list"
+Third-Party / Vendor Risk,Identify,2,4,8,Medium,"Vendor security questionnaires, SLAs"
+Lost or Stolen Devices,Protect,2,3,6,Medium,"Device encryption, MDM, remote wipe"
+Misconfigured Cloud Storage,Protect,2,3,6,Medium,"Cloud security posture checks, encryption at rest"
+Outdated Backup Practices,Recover,2,3,6,Medium,Automated + tested backups
