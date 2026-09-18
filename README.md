@@ -69,7 +69,7 @@ Checks:
 
 Sample output of `check_baseline.ps1` run on a Windows machine:
 
-![Baseline Check Output](screenshots/script_output.png)
+![Baseline Check Output](script_output.PNG)
 
 ## 👤 Author
 
